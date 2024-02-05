@@ -1,2 +1,1 @@
-# mesutmg.github.io
 no.
