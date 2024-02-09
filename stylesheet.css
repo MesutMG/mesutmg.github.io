@@ -15,3 +15,13 @@ h1{
 figcaption{
         font-size: 20px;
 }
+
+.greenp{
+    color: green;
+}
+.redp{
+    color: red;
+}
+.blackp{
+    color: black;
+}
