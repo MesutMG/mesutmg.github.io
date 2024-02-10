@@ -25,3 +25,15 @@ figcaption{
 .blackp{
     color: black;
 }
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    display: inline;
+}
+nav a:link, a:visited{
+    background-color: gray;
+}
+nav a:hover{
+    background-color: black;
+}
