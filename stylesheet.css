@@ -1,39 +1,24 @@
-p{
-    text-align: justify;
-}
-
 body{
-    font-size: 24px;
-    font-family: Arial;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-h1{
-    text-align: center;
-    font-size: 175%;
-    }
-
-figcaption{
-        font-size: 20px;
+#page{
+    margin-right: 20%;
+    margin-left: 20%;
 }
-
-.greenp{
-    color: green;
+#navigator{
+    text-align: left;
 }
-.redp{
-    color: red;
-}
-.blackp{
+#navigator li {
+    margin: 0 10px;
+    display: inline-block;
     color: black;
+    background-color: orange;
+    transition: transform 0.5s ease, background-color 0.5s ease;
 }
-nav ul{
-    list-style-type: none;
+a{
+    text-decoration: none;
 }
-nav li{
-    display: inline;
-}
-nav a:link, a:visited{
-    background-color: gray;
-}
-nav a:hover{
-    background-color: black;
+#navigator li:hover {
+    background-color: white;
+    transform: scale(1.2);
 }
