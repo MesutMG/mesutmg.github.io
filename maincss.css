@@ -1,0 +1,10 @@
+#pboutsideimage{
+    border-radius: 20px ;
+    width: 300px;
+    height: auto;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+iframe{
+    border-radius: 20px;
+}
