@@ -1,1 +1,1 @@
-Learning HTML and CSS usage here, will start JS soon.
+Learning HTML , CSS and JS here.
