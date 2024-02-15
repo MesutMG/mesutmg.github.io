@@ -1,6 +1,7 @@
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(40, 40, 40);
+    background-color: #282828;
+    transition: 0.4s;
 }
 #page{
     margin-right: 20%;
@@ -10,7 +11,7 @@ body{
     text-align: center;
     border-radius: 20px;
     width: 600px;
-    background-color: orange;
+    background-color: #3a3a3a;
 }
 #navigator ul{
     padding: 0;
@@ -19,8 +20,7 @@ body{
 #navigator li {
     margin: 10px;
     display: inline-block;
-    background-color: orange;
-    transition: background-color 0.5s ease;
+    transition: 0.5s ease;
     border-radius: 20px;
     width: 100px;
     text-align: center;
@@ -30,52 +30,47 @@ a{
     text-decoration: none;
     
 }
-#navigator li:hover {
-    background-color: white;
+#navigator li:hover{
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); /* Horizontal offset, Vertical offset, Blur radius, Color */
+
 }
 label{
-    width: 50px;
-    height: 20px;
-    position: relative;
-    display: block;
-    background:#ebebeb;
-    border-radius: 20px;
-    cursor: pointer;
+  width: 50px;
+  height: 20px;
+  position: relative;
+  display: block;
+  background:#242424;
+  border-radius: 20px;
+  cursor: pointer;
 }
-label:after {
-    content: "";
-    width:18px;
-    height: 18px;
-    position: absolute;
-    top:1px;
-    left:1px;
-    background: #b2b2b2;
-    border-radius: 18px;
-  }
-  input {
-    width: 0;
-    height: 0;
-    visibility: hidden;
-  }
-  input:checked + label {
-    background: #242424;
-  }
-  input:checked + label:after {
-    left:30px;
-    transform: translateX(-10%);
-    background:#3a3a3a;
-  }
-  label, label:after {
-    transition: 0.3s
-  }
-  label:active:after{ 
-    width: 26px; 
-  }
-  .page {
-    width:100vw;
-    height: 100vh;
-    background: rgb(40, 40, 40);
-    z-index: -1;
-    position: absolute;
-    transition: 0.3s;
-  }
+label:after{
+  content: "";
+  width:18px;
+  height: 18px;
+  position: absolute;
+  top:1px;
+  left:1px;
+  background-color: #3a3a3a;
+  border-radius: 18px;
+}
+input {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+input:checked + label {
+  background: #ebebeb;
+}
+input:checked + label:after {
+  left:31px;
+  background:#b7b7b7;
+}
+label, label:after {
+  transition: 0.3s
+}
+.whitext{
+  color: white;
+}
+.blacktext{
+  color: black;
+}
